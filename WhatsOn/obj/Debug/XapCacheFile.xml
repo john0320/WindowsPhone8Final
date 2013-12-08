@@ -1,0 +1,47 @@
+﻿<xapCache source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Bin\Debug\WhatsOn_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="12/8/2013 2:09:56 PM">
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\obj\Debug\WhatsOn.dll" archivePath="WhatsOn.dll" lastWriteTime="12/8/2013 2:09:55 PM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="11/22/2013 2:42:39 AM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Assets\appIcons\alarm.png" archivePath="Assets\appIcons\alarm.png" lastWriteTime="11/22/2013 7:19:21 PM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Assets\appIcons\favs1.png" archivePath="Assets\appIcons\favs1.png" lastWriteTime="11/22/2013 7:22:31 PM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Assets\appIcons\favsaddto.png" archivePath="Assets\appIcons\favsaddto.png" lastWriteTime="11/22/2013 7:20:58 PM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Assets\appIcons\refresh.png" archivePath="Assets\appIcons\refresh.png" lastWriteTime="12/4/2013 6:44:34 PM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Assets\appIcons\reminder.png" archivePath="Assets\appIcons\reminder.png" lastWriteTime="11/22/2013 9:20:39 AM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Assets\appIcons\save.png" archivePath="Assets\appIcons\save.png" lastWriteTime="11/22/2013 1:48:56 PM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Assets\appIcons\search1.png" archivePath="Assets\appIcons\search1.png" lastWriteTime="12/4/2013 6:44:34 PM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Assets\appIcons\settings.png" archivePath="Assets\appIcons\settings.png" lastWriteTime="11/22/2013 9:20:39 AM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Assets\appIcons\share.png" archivePath="Assets\appIcons\share.png" lastWriteTime="11/22/2013 7:20:41 PM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Assets\appIcons\star.png" archivePath="Assets\appIcons\star.png" lastWriteTime="11/22/2013 7:30:44 PM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Assets\appIcons\tvWhite.png" archivePath="Assets\appIcons\tvWhite.png" lastWriteTime="11/22/2013 9:20:39 AM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="11/22/2013 2:42:39 AM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Assets\Images\background.png" archivePath="Assets\Images\background.png" lastWriteTime="11/28/2013 5:07:12 PM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Assets\Images\background1.png" archivePath="Assets\Images\background1.png" lastWriteTime="12/7/2013 1:27:11 PM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Assets\Images\background2.png" archivePath="Assets\Images\background2.png" lastWriteTime="12/7/2013 1:49:24 PM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Assets\Images\noImage_150x100.png" archivePath="Assets\Images\noImage_150x100.png" lastWriteTime="12/4/2013 2:14:21 PM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Assets\Images\noImage_200x100.png" archivePath="Assets\Images\noImage_200x100.png" lastWriteTime="12/4/2013 2:11:13 PM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Assets\Images\noImage_400x200.png" archivePath="Assets\Images\noImage_400x200.png" lastWriteTime="12/4/2013 2:04:27 PM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Assets\Images\tvIcon.png" archivePath="Assets\Images\tvIcon.png" lastWriteTime="12/7/2013 1:46:21 PM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Assets\refresh.png" archivePath="Assets\refresh.png" lastWriteTime="12/4/2013 6:42:58 PM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Assets\appIcons\search.png" archivePath="Assets\appIcons\search.png" lastWriteTime="12/4/2013 6:47:32 PM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="11/22/2013 2:42:39 AM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="11/22/2013 2:42:39 AM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="11/22/2013 2:42:39 AM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="11/22/2013 2:42:39 AM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="11/22/2013 2:42:39 AM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\README_FIRST.txt" archivePath="README_FIRST.txt" lastWriteTime="11/22/2013 5:36:48 PM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\showTypes.js" archivePath="showTypes.js" lastWriteTime="11/22/2013 3:14:15 PM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Toolkit.Content\ApplicationBar.Add.png" archivePath="Toolkit.Content\ApplicationBar.Add.png" lastWriteTime="11/22/2013 5:36:48 PM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Toolkit.Content\ApplicationBar.Cancel.png" archivePath="Toolkit.Content\ApplicationBar.Cancel.png" lastWriteTime="11/22/2013 5:36:48 PM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Toolkit.Content\ApplicationBar.Check.png" archivePath="Toolkit.Content\ApplicationBar.Check.png" lastWriteTime="11/22/2013 5:36:48 PM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Toolkit.Content\ApplicationBar.Delete.png" archivePath="Toolkit.Content\ApplicationBar.Delete.png" lastWriteTime="11/22/2013 5:36:48 PM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Toolkit.Content\ApplicationBar.Select.png" archivePath="Toolkit.Content\ApplicationBar.Select.png" lastWriteTime="11/22/2013 5:36:48 PM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Assets\appIcons\tvLogo.png" archivePath="Assets\appIcons\tvLogo.png" lastWriteTime="11/28/2013 3:38:46 PM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\tv.png" archivePath="tv.png" lastWriteTime="11/28/2013 4:23:13 PM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="12/7/2013 9:27:28 PM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Libraries\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="3/3/2013 6:40:38 PM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="11/22/2013 5:36:48 PM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\packages\Newtonsoft.Json.5.0.8\lib\portable-net45+wp80+win8\Newtonsoft.Json.dll" archivePath="Newtonsoft.Json.dll" lastWriteTime="11/22/2013 5:33:49 PM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\packages\Newtonsoft.Json.5.0.8\lib\portable-net45+wp80+win8\Newtonsoft.Json.xml" archivePath="Newtonsoft.Json.xml" lastWriteTime="11/22/2013 5:33:49 PM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\tile_med_336x336.png" archivePath="tile_med_336x336.png" lastWriteTime="11/28/2013 4:29:23 PM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\tile_sm_159x159.png" archivePath="tile_sm_159x159.png" lastWriteTime="11/28/2013 4:33:27 PM" />
+  <file source="C:\Users\Christine\Documents\Visual Studio 2012\Projects\WhatsOn\WhatsOn\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="12/7/2013 9:27:28 PM" />
+</xapCache>

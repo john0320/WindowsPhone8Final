@@ -1,0 +1,104 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="WhatsOn.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/Images/background1.png" Opacity=".5" />
+        </Grid.Background>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <StackPanel Orientation="Horizontal" >
+                <Image x:Name="imageTitle" Source="/Assets/Images/tvIcon.png" Height="75" Width="75"/>
+                <TextBlock Text="WHATS ON" Style="{StaticResource PhoneTextNormalStyle}" Margin="12,24"/>
+            </StackPanel>
+
+            <TextBlock Text="tv media" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,24,12,0" Height="607" VerticalAlignment="Top">
+            <StackPanel Orientation="Vertical" Width="350" Margin="0, 0, 0, 0">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="400">
+                    <Button BorderThickness="0" Padding="0" Margin="0" Tap="Search_Tap">
+                        <StackPanel Orientation="Horizontal">
+                            <Image x:Name="mainSearch" Source="/Assets/appIcons/search.png" Height="75" Width="75" Margin="0,12,0,0"/>
+
+                            <StackPanel Orientation="Vertical" VerticalAlignment="Center" Width="320">
+                                <TextBlock TextWrapping="Wrap" Style="{StaticResource PhoneTextLargeStyle}" Text="search"/>
+                                <TextBlock TextWrapping="Wrap" Style="{StaticResource PhoneTextSubtleStyle}" Text="search upcoming shows"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="400">
+                    <Button BorderThickness="0" Padding="0" Margin="0" Tap="Guide_Tap">
+                        <StackPanel Orientation="Horizontal">
+                            <Image x:Name="mainGuide" Source="/Assets/appIcons/tvWhite.png" Height="75" Width="75" Margin="0,0,0,0"/>
+
+                            <StackPanel Orientation="Vertical" VerticalAlignment="Center" Width="320">
+                                <TextBlock TextWrapping="Wrap" Style="{StaticResource PhoneTextLargeStyle}" Text="guide"/>
+                                <TextBlock TextWrapping="Wrap" Style="{StaticResource PhoneTextSubtleStyle}" Text="browse the entire guide"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="400">
+                    <Button BorderThickness="0" Padding="0" Margin="0" Tap="Reminder_Tap">
+                        <StackPanel Orientation="Horizontal">
+                            <Image x:Name="mainReminders" Source="/Assets/appIcons/reminder.png" Height="75" Width="75" Margin="0,12,0,0"/>
+                            <StackPanel Orientation="Vertical" VerticalAlignment="Center" Width="320">
+                                <TextBlock TextWrapping="Wrap" Style="{StaticResource PhoneTextLargeStyle}" Text="reminders"/>
+                                <TextBlock TextWrapping="Wrap" Style="{StaticResource PhoneTextSubtleStyle}" Text="view program reminders"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="400">
+                    <StackPanel Orientation="Horizontal">
+                        <Button BorderThickness="0" Padding="0" Margin="0" Tap="Favorite_Tap">
+                            <StackPanel Orientation="Horizontal">
+                                <Image x:Name="mainFavorites" Source="/Assets/appIcons/star.png" Height="75" Width="75" Margin="0,0,0,0"/>
+
+                                <StackPanel Orientation="Vertical" VerticalAlignment="Center" Width="320">
+                                    <TextBlock TextWrapping="Wrap" Style="{StaticResource PhoneTextLargeStyle}" Text="favorites"/>
+                                    <TextBlock TextWrapping="Wrap" Style="{StaticResource PhoneTextSubtleStyle}" Text="quick search for favorites"/>
+                                </StackPanel>
+                            </StackPanel>
+                        </Button>
+                    </StackPanel>
+
+
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </Grid>
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar Mode="Default" Opacity="1.0" IsMenuEnabled="True" IsVisible="True">
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="settings" Click="Settings_Click" />
+                <shell:ApplicationBarMenuItem Text="about" Click="ApplicationBarAboutItem_Click" />
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+</phone:PhoneApplicationPage>

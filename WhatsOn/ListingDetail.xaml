@@ -1,0 +1,85 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="WhatsOn.ListingDetail"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <ScrollViewer
+        Name="scrollViewer"
+        Margin="0" 
+        VerticalAlignment="Top" 
+        VerticalScrollBarVisibility="Hidden" HorizontalScrollBarVisibility="Disabled">
+        <Grid x:Name="LayoutRoot" Background="Transparent">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <StackPanel Orientation="Vertical" VerticalAlignment="Top" Margin="0">
+                <StackPanel Orientation="Vertical" VerticalAlignment="Top" Margin="0">
+
+                    <!--TitlePanel contains the name of the application and page title-->
+                    <StackPanel Grid.Row="0" Margin="12,17,0,28">
+                        <TextBlock Text="WHATS ON" Style="{StaticResource PhoneTextNormalStyle}"/>
+                        <TextBlock Text="listing detail" Margin="12,-12,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+                    </StackPanel>
+
+                    <!--ContentPanel - place additional content here-->
+                    <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+                        <StackPanel HorizontalAlignment="Left" Margin="20, 0, 20, 0" Height="Auto" VerticalAlignment="Top" Width="400">
+                            <TextBlock x:Name="showName" TextWrapping="Wrap" Text="showName" FontSize="{StaticResource PhoneFontSizeExtraLarge}" />
+                            <Image x:Name="showImage" HorizontalAlignment="Left" Height="200" Width="400" Source="/Assets/Images/noImage_400x200.png" VerticalAlignment="Top"/>
+                            <StackPanel HorizontalAlignment="Left"  Margin="0" VerticalAlignment="Top">
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left"  Margin="0" Width="400" VerticalAlignment="Top">
+                                    <TextBlock x:Name="listDate" TextWrapping="Wrap"  Text="listDate" FontSize="{StaticResource PhoneFontSizeMedium}"/>
+                                    <TextBlock x:Name="listTime" TextWrapping="Wrap" Margin="12, 0, 0, 0" Text="listTime" FontSize="{StaticResource PhoneFontSizeMedium}"/>
+                                    <TextBlock x:Name="duration" TextWrapping="Wrap" Margin="12, 0, 0, 0" Text="duration" FontSize="{StaticResource PhoneFontSizeMedium}"/>
+                                    <TextBlock x:Name="lengthUnit" TextWrapping="Wrap" Margin="12, 0, 0, 0" Text="Minutes" FontSize="{StaticResource PhoneFontSizeMedium}"/>
+                                </StackPanel>
+
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left"  Margin="0" Width="400" VerticalAlignment="Top">
+                                    <TextBlock x:Name="channel" TextWrapping="Wrap"  Text="channel" FontSize="{StaticResource PhoneFontSizeMedium}"/>
+                                    <TextBlock  x:Name="network" TextWrapping="Wrap" Margin="12, 0, 0, 0" Text="network" FontSize="{StaticResource PhoneFontSizeMedium}"/>
+                                </StackPanel>
+
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left"  Margin="0" Width="400" VerticalAlignment="Top">
+                                    <TextBlock x:Name="rating" TextWrapping="Wrap" Text="rating" FontSize="{StaticResource PhoneFontSizeMedium}"/>
+                                    <TextBlock x:Name="hd" TextWrapping="Wrap" Margin="12, 0, 0, 0" Text="hd" FontSize="{StaticResource PhoneFontSizeMedium}"/>
+                                    <TextBlock x:Name="showType" TextWrapping="Wrap" Margin="12, 0, 0, 0" Text="showType" FontSize="{StaticResource PhoneFontSizeMedium}"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left"  Margin="0" Width="400" VerticalAlignment="Top">
+                                    <TextBlock x:Name="episodeTitle" TextWrapping="Wrap"  Text="episodetitle" FontSize="{StaticResource PhoneFontSizeMedium}"/>
+                                    <TextBlock  TextWrapping="Wrap" Margin="12, 0, 0, 0" Text="#" FontSize="{StaticResource PhoneFontSizeMedium}"/>
+                                    <TextBlock  x:Name="episodeNumber" TextWrapping="Wrap" Margin="12, 0, 0, 0" Text="N/A" FontSize="{StaticResource PhoneFontSizeMedium}"/>
+                                </StackPanel>
+                                <TextBlock x:Name="description" TextWrapping="Wrap" Text="description" FontSize="{StaticResource PhoneFontSizeMedium}"/>
+
+
+                            </StackPanel>
+                        </StackPanel>
+                    </Grid>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </ScrollViewer>
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar Mode="Default" Opacity="1.0" IsMenuEnabled="True" IsVisible="True">
+            <shell:ApplicationBarIconButton IconUri="/Assets/appIcons/share.png" Text="share" Click="Share_Click"/>
+            <shell:ApplicationBarIconButton IconUri="/Assets/appIcons/favsaddto.png" Text="save" Click="Favs_Click"/>
+            <shell:ApplicationBarIconButton IconUri="/Assets/appIcons/alarm.png" Text="save" Click="Reminder_Click"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="settings" Click="Settings_Click" />
+                <shell:ApplicationBarMenuItem Text="about" Click="ApplicationBarAboutItem_Click" />
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+</phone:PhoneApplicationPage>
